@@ -104,8 +104,12 @@ const FILE_SUFFIXES_BY_ICON_KEY: &[(&str, &[&str])] = &[
         &[
             "docker-compose.yml",
             "docker-compose.yaml",
+            "docker-compose.*.yml",
+            "docker-compose.*.yaml",
             "compose.yml",
             "compose.yaml",
+            "compose.*.yml",
+            "compose.*.yaml",
         ],
     ),
     (
